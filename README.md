@@ -45,4 +45,4 @@ Bahasa Indonesia stays at `/`. English goes under `/en/`:
 
 - Confirm the domain (`tikapos.id` is used throughout: canonical, OG, sitemap, robots).
 - Add the GA4 tag in `<head>` (placeholder comment in `index.html`).
-- Confirm contact email and sign-in/sign-up URLs.
+- Confirm contact email.
