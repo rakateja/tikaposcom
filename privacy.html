@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary SEO Meta Tags -->
+    <title>Kebijakan Privasi TikaPOS</title>
+    <meta name="description" content="Kebijakan Privasi aplikasi kasir TikaPOS untuk Android: data yang kami kumpulkan, cara penggunaannya, izin perangkat, hak Anda sesuai UU PDP, dan cara menghapus akun.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Made Raka">
+    <meta name="theme-color" content="#0E7C66">
+    <link rel="canonical" href="https://tikapos.id/privacy.html">
+
+    <link rel="alternate" hreflang="id" href="https://tikapos.id/privacy.html">
+    <link rel="alternate" hreflang="x-default" href="https://tikapos.id/privacy.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tikapos.id/privacy.html">
+    <meta property="og:title" content="Kebijakan Privasi TikaPOS">
+    <meta property="og:description" content="Bagaimana TikaPOS mengumpulkan, menggunakan, dan melindungi data pribadi Anda.">
+    <meta property="og:image" content="https://tikapos.id/assets/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="tikaPOS">
+    <meta property="og:locale" content="id_ID">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kebijakan Privasi TikaPOS">
+    <meta name="twitter:description" content="Bagaimana TikaPOS mengumpulkan, menggunakan, dan melindungi data pribadi Anda.">
+    <meta name="twitter:image" content="https://tikapos.id/assets/og-image.png">
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" href="assets/icon-512.png" type="image/png" sizes="512x512">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+    <!-- JSON-LD Structured Data: WebPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Kebijakan Privasi TikaPOS",
+        "description": "Kebijakan Privasi aplikasi kasir TikaPOS untuk Android.",
+        "url": "https://tikapos.id/privacy.html",
+        "inLanguage": "id",
+        "datePublished": "2026-10-13",
+        "dateModified": "2026-10-13",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "tikaPOS",
+            "url": "https://tikapos.id",
+            "inLanguage": "id"
+        }
+    }
+    </script>
+
+    <!-- JSON-LD Structured Data: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://tikapos.id/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Kebijakan Privasi",
+                "item": "https://tikapos.id/privacy.html"
+            }
+        ]
+    }
+    </script>
+
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #0E7C66;
+    --primary-hover: #0B6654;
+    --text-color: #1f2937;
+    --muted: #4b5563;
+    --border: #e5e7eb;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background: #fff;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+}
+
+a {
+    color: var(--primary-color);
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.skip-to-content {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 0.5rem 1rem;
+}
+
+.skip-to-content:focus {
+    top: 0;
+}
+
+/* Header */
+.site-header {
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 0;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-img {
+    display: block;
+    height: 30px;
+    width: auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    font-size: 0.95rem;
+}
+
+.nav a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: var(--primary-color);
+}
+
+/* Policy content */
+.policy {
+    padding: 3rem 0 3.5rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.policy .container {
+    max-width: 760px;
+}
+
+.policy h1 {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.policy .meta {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+}
+
+.policy h2 {
+    font-size: 1.3rem;
+    margin: 2.5rem 0 1rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+}
+
+.policy h3 {
+    font-size: 1.05rem;
+    margin: 1.5rem 0 0.6rem;
+}
+
+.policy p,
+.policy li {
+    color: var(--muted);
+}
+
+.policy strong {
+    color: var(--text-color);
+}
+
+.policy p {
+    margin-bottom: 1rem;
+}
+
+.policy ul,
+.policy ol {
+    margin: 0 0 1rem 1.25rem;
+}
+
+.policy li {
+    margin-bottom: 0.4rem;
+}
+
+.toc {
+    background: #f9fafb;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.toc p {
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.toc ol {
+    margin-bottom: 0;
+    columns: 2;
+    column-gap: 2rem;
+}
+
+.toc li {
+    margin-bottom: 0.2rem;
+}
+
+.table-wrap {
+    overflow-x: auto;
+    margin-bottom: 1rem;
+}
+
+.policy table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+}
+
+.policy th,
+.policy td {
+    text-align: left;
+    vertical-align: top;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid var(--border);
+}
+
+.policy th {
+    background: #f9fafb;
+    font-weight: 600;
+}
+
+.policy td {
+    color: var(--muted);
+}
+
+.contact-card {
+    border-left: 3px solid var(--primary-color);
+    padding: 0.25rem 0 0.25rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact-card p {
+    margin-bottom: 0.2rem;
+}
+
+/* Footer */
+.site-footer {
+    padding: 2rem 0;
+    font-size: 0.9rem;
+    color: var(--muted);
+}
+
+.site-footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .nav .nav-section {
+        display: none;
+    }
+
+    .policy h1 {
+        font-size: 1.6rem;
+    }
+
+    .toc ol {
+        columns: 1;
+    }
+}
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Langsung ke konten utama</a>
+
+    <header class="site-header">
+        <div class="container">
+            <a href="/" aria-label="tikaPOS - Beranda">
+                <img src="assets/logo.png" alt="tikaPOS" class="logo-img" width="128" height="30">
+            </a>
+            <nav class="nav" aria-label="Navigasi utama">
+                <a href="/#fitur" class="nav-section">Fitur</a>
+                <a href="/#akuntansi" class="nav-section">Akuntansi</a>
+                <a href="/#faq" class="nav-section">FAQ</a>
+                <a href="/">Beranda</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Source text lives in privacy.md; keep both in sync -->
+    <main id="main-content" class="policy">
+        <article class="container">
+            <h1>Kebijakan Privasi TikaPOS</h1>
+            <p class="meta">
+                <strong>Tanggal Berlaku:</strong> <time datetime="2026-10-13">13 Oktober 2026</time><br>
+                <strong>Terakhir Diperbarui:</strong> <time datetime="2026-10-13">13 Oktober 2026</time>
+            </p>
+
+            <p>Kebijakan Privasi ini menjelaskan bagaimana <strong>Made Raka</strong> ("<strong>Kami</strong>"), selaku pengembang Aplikasi, mengumpulkan, menggunakan, menyimpan, membagikan, dan melindungi data pribadi Anda ketika Anda menggunakan aplikasi kasir (Point of Sale) <strong>TikaPOS</strong> untuk Android beserta layanan terkait (secara bersama-sama disebut "<strong>Aplikasi</strong>").</p>
+            <p>Kebijakan ini berlaku khusus untuk Aplikasi dan disusun dengan mengacu pada Undang-Undang Republik Indonesia Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi ("<strong>UU PDP</strong>") serta peraturan perundang-undangan terkait lainnya di Indonesia.</p>
+            <p>Dengan mengunduh, mendaftar, atau menggunakan Aplikasi, Anda menyatakan telah membaca dan memahami Kebijakan Privasi ini. Apabila Anda tidak menyetujuinya, mohon untuk tidak menggunakan Aplikasi.</p>
+
+            <nav class="toc" aria-label="Daftar isi">
+                <p>Daftar Isi</p>
+                <ol>
+                    <li><a href="#tentang-kami">Tentang Kami</a></li>
+                    <li><a href="#definisi">Definisi Singkat</a></li>
+                    <li><a href="#data-dikumpulkan">Data yang Kami Kumpulkan</a></li>
+                    <li><a href="#izin-perangkat">Izin Perangkat</a></li>
+                    <li><a href="#penggunaan-data">Cara Kami Menggunakan Data</a></li>
+                    <li><a href="#dasar-pemrosesan">Dasar Pemrosesan Data</a></li>
+                    <li><a href="#pembagian-data">Pembagian Data kepada Pihak Lain</a></li>
+                    <li><a href="#data-pelanggan">Data Pelanggan Merchant</a></li>
+                    <li><a href="#penyimpanan">Penyimpanan dan Lokasi Data</a></li>
+                    <li><a href="#keamanan">Keamanan Data</a></li>
+                    <li><a href="#retensi">Masa Retensi Data</a></li>
+                    <li><a href="#hak-anda">Hak-Hak Anda</a></li>
+                    <li><a href="#hapus-akun">Penghapusan Akun dan Data</a></li>
+                    <li><a href="#di-bawah-umur">Pengguna di Bawah Umur</a></li>
+                    <li><a href="#hubungi-kami">Hubungi Kami</a></li>
+                    <li><a href="#perubahan">Perubahan Kebijakan Privasi</a></li>
+                    <li><a href="#bahasa-hukum">Bahasa dan Hukum yang Berlaku</a></li>
+                </ol>
+            </nav>
+
+            <h2 id="tentang-kami">1. Tentang Kami</h2>
+            <p>Aplikasi dibangun, dikelola, dan dioperasikan oleh:</p>
+            <div class="contact-card">
+                <p><strong>Made Raka</strong> (sesuai nama pengembang di Google Play)</p>
+                <p>Alamat: Bali, Indonesia</p>
+                <p>Email: <a href="mailto:raka@tikapro.id">raka@tikapro.id</a></p>
+                <p>Telepon/WhatsApp: <a href="https://wa.me/6281325763731" target="_blank" rel="noopener noreferrer">+62 813-2576-3731</a></p>
+                <p>Situs web: <a href="https://tikapos.com">https://tikapos.com</a></p>
+            </div>
+            <p>Untuk data akun dan penggunaan Aplikasi, Kami bertindak sebagai <strong>Pengendali Data Pribadi</strong>.</p>
+
+            <h2 id="definisi">2. Definisi Singkat</h2>
+            <ul>
+                <li><strong>Pengguna / Anda</strong>: setiap orang yang menggunakan Aplikasi, termasuk pemilik usaha (Merchant) dan karyawan/staf yang diberi akses oleh Merchant.</li>
+                <li><strong>Merchant</strong>: pemilik usaha atau pihak yang mendaftarkan usahanya pada Aplikasi.</li>
+                <li><strong>Pelanggan Merchant</strong>: konsumen dari Merchant yang datanya mungkin dicatat oleh Merchant melalui Aplikasi.</li>
+                <li><strong>Data Pribadi</strong>: setiap data tentang orang perseorangan yang teridentifikasi atau dapat diidentifikasi, sebagaimana dimaksud dalam UU PDP.</li>
+            </ul>
+
+            <h2 id="data-dikumpulkan">3. Data yang Kami Kumpulkan</h2>
+
+            <h3>3.1 Data yang Anda berikan secara langsung</h3>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr><th scope="col">Kategori</th><th scope="col">Contoh Data</th><th scope="col">Tujuan Utama</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Data akun</td><td>Nama depan dan belakang, alamat email, negara, kata sandi (disimpan dalam bentuk terenkripsi/hash)</td><td>Pendaftaran, login, dan keamanan akun</td></tr>
+                        <tr><td>Data usaha</td><td>Nama usaha, alamat usaha, outlet, jenis usaha</td><td>Menampilkan identitas usaha pada struk dan laporan</td></tr>
+                        <tr><td>Data staf</td><td>Nama staf, peran/hak akses, PIN atau kredensial login staf</td><td>Manajemen pengguna dan hak akses di dalam usaha</td></tr>
+                        <tr><td>Data produk &amp; inventaris</td><td>Nama produk, harga, stok, kategori, foto produk</td><td>Pengelolaan katalog dan stok</td></tr>
+                        <tr><td>Data transaksi</td><td>Item yang dijual, jumlah, harga, diskon, pajak, metode pembayaran, waktu transaksi, nomor struk</td><td>Pencatatan penjualan, struk, dan laporan</td></tr>
+                        <tr><td>Data Pelanggan Merchant (opsional)</td><td>Nama pelanggan dan riwayat pembelian</td><td>Pencatatan pelanggan pada transaksi</td></tr>
+                        <tr><td>Komunikasi dengan kami</td><td>Isi pesan, email, atau chat WhatsApp</td><td>Layanan pelanggan dan penanganan keluhan</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>3.2 Data yang dikumpulkan secara otomatis</h3>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr><th scope="col">Kategori</th><th scope="col">Contoh Data</th><th scope="col">Tujuan Utama</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Informasi perangkat</td><td>Model perangkat, versi sistem operasi Android, versi Aplikasi, bahasa perangkat, ID perangkat/instalasi</td><td>Kompatibilitas, keamanan, dan dukungan teknis</td></tr>
+                        <tr><td>Log server</td><td>Alamat IP, waktu akses, permintaan ke server, dan pesan error</td><td>Memperbaiki bug dan menjaga stabilitas serta keamanan layanan</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Aplikasi <strong>tidak</strong> memuat SDK analitik, pelacakan iklan, maupun pelaporan crash pihak ketiga.</p>
+
+            <h3>3.3 Data pembayaran</h3>
+            <p>Aplikasi hanya <strong>mencatat</strong> metode pembayaran yang digunakan pada setiap transaksi (misalnya tunai, kartu debit/kredit, QRIS, atau transfer bank). Pembayaran non-tunai diproses di luar Aplikasi oleh penyedia jasa pembayaran pilihan Merchant. <strong>Kami tidak menerima maupun menyimpan nomor kartu, CVV, atau PIN kartu pembayaran.</strong> Kami hanya menyimpan informasi yang diperlukan untuk mencatat transaksi, seperti nominal, metode pembayaran, dan nomor referensi yang dimasukkan oleh kasir.</p>
+
+            <h3>3.4 Data yang tidak kami kumpulkan</h3>
+            <p>Saat ini Kami <strong>tidak</strong> mengumpulkan maupun menyimpan Nomor Pokok Wajib Pajak (NPWP). Kami juga <strong>tidak</strong> mengumpulkan data pribadi yang bersifat spesifik (seperti data kesehatan, biometrik, genetika, atau catatan kejahatan), lokasi perangkat, kontak di perangkat Anda, isi SMS, maupun riwayat panggilan.</p>
+
+            <h2 id="izin-perangkat">4. Izin Perangkat (Android Permissions)</h2>
+            <p>Aplikasi hanya meminta izin yang diperlukan untuk menjalankan fungsinya. Anda dapat menolak atau mencabut izin melalui pengaturan perangkat, namun beberapa fitur mungkin tidak dapat berfungsi.</p>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr><th scope="col">Izin</th><th scope="col">Kegunaan</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Internet &amp; Status Jaringan</td><td>Sinkronisasi data ke server, memuat gambar produk, dan memeriksa koneksi</td></tr>
+                        <tr><td>Bluetooth / Perangkat di Sekitar (Nearby Devices)</td><td>Menghubungkan printer struk Bluetooth</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Aplikasi <strong>tidak</strong> meminta izin kamera, lokasi, mikrofon, kontak, maupun akses penyimpanan/media.</p>
+
+            <h2 id="penggunaan-data">5. Cara Kami Menggunakan Data</h2>
+            <p>Kami menggunakan data hanya untuk tujuan berikut:</p>
+            <ol>
+                <li>Menyediakan dan menjalankan fitur Aplikasi (pencatatan penjualan, inventaris, struk, laporan).</li>
+                <li>Membuat, memverifikasi, dan mengelola akun Anda.</li>
+                <li>Menyinkronkan dan mencadangkan data usaha Anda agar dapat diakses dari perangkat yang terotorisasi.</li>
+                <li>Mencatat pembayaran yang diterima oleh Merchant.</li>
+                <li>Menjaga keamanan, mencegah penipuan, dan mendeteksi akses tidak sah.</li>
+                <li>Menganalisis error dan meningkatkan performa serta kualitas Aplikasi.</li>
+                <li>Memberikan layanan pelanggan dan dukungan teknis.</li>
+                <li>Mengirim informasi penting terkait layanan (misalnya perubahan kebijakan atau pembaruan keamanan).</li>
+                <li>Memenuhi kewajiban hukum yang berlaku.</li>
+            </ol>
+            <p><strong>Kami tidak menjual data pribadi Anda</strong> dan <strong>tidak menggunakan data Anda untuk iklan pihak ketiga</strong>.</p>
+
+            <h2 id="dasar-pemrosesan">6. Dasar Pemrosesan Data</h2>
+            <p>Sesuai Pasal 20 UU PDP, kami memproses data pribadi berdasarkan:</p>
+            <ul>
+                <li><strong>Persetujuan</strong> Anda, misalnya saat Anda mendaftar atau memberikan izin perangkat;</li>
+                <li><strong>Pelaksanaan perjanjian</strong>, yaitu untuk menyediakan layanan Aplikasi yang Anda gunakan;</li>
+                <li><strong>Pemenuhan kewajiban hukum</strong>, misalnya kewajiban pencatatan atau permintaan aparat yang berwenang;</li>
+                <li><strong>Kepentingan yang sah</strong>, misalnya menjaga keamanan sistem dan memperbaiki layanan, dengan tetap memperhatikan hak Anda.</li>
+            </ul>
+
+            <h2 id="pembagian-data">7. Pembagian Data kepada Pihak Lain</h2>
+            <p>Kami <strong>tidak menjual, menyewakan, atau memperdagangkan</strong> data pribadi Anda. Kami tidak membagikan data Anda kepada pihak ketiga untuk kepentingan pemasaran mereka.</p>
+            <p>Namun, untuk menjalankan Aplikasi, data tertentu dapat diproses oleh pihak-pihak berikut, <strong>hanya sebatas yang diperlukan</strong> dan berdasarkan perjanjian yang mewajibkan mereka menjaga kerahasiaan dan keamanan data:</p>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr><th scope="col">Jenis Pihak</th><th scope="col">Data yang Diproses</th><th scope="col">Tujuan</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Penyedia layanan cloud, hosting, dan CDN</td><td>Data akun, usaha, produk, transaksi, serta gambar produk</td><td>Penyimpanan, sinkronisasi, dan pengiriman data</td></tr>
+                        <tr><td>Penyedia layanan pengiriman email</td><td>Nama dan alamat email</td><td>Mengirim email terkait akun, seperti verifikasi atau pengaturan ulang kata sandi</td></tr>
+                        <tr><td>Instansi pemerintah / aparat penegak hukum</td><td>Data yang diminta secara sah</td><td>Memenuhi kewajiban hukum atau perintah pengadilan</td></tr>
+                        <tr><td>Pihak penerus usaha</td><td>Data terkait layanan</td><td>Dalam hal terjadi merger, akuisisi, atau pengalihan usaha, dengan pemberitahuan kepada Anda</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Selain itu, data dapat dibagikan kepada pihak lain <strong>atas permintaan atau persetujuan Anda</strong>, misalnya ketika Anda mencetak atau memberikan struk kepada pelanggan atau mengekspor laporan.</p>
+
+            <h2 id="data-pelanggan">8. Data Pelanggan Merchant</h2>
+            <p>Apabila Merchant mencatat data Pelanggan Merchant di dalam Aplikasi (misalnya nama pelanggan), maka:</p>
+            <ul>
+                <li><strong>Merchant bertindak sebagai Pengendali Data Pribadi</strong> atas data tersebut dan bertanggung jawab memperoleh dasar hukum yang sah (termasuk persetujuan pelanggan bila diperlukan);</li>
+                <li><strong>Kami bertindak sebagai Prosesor Data Pribadi</strong> yang memproses data tersebut hanya untuk menyediakan layanan Aplikasi sesuai instruksi Merchant;</li>
+                <li>Kami tidak menggunakan data Pelanggan Merchant untuk kepentingan kami sendiri.</li>
+            </ul>
+            <p>Pelanggan Merchant yang ingin mengakses atau menghapus datanya dapat menghubungi Merchant terkait. Kami akan membantu Merchant memenuhi permintaan tersebut.</p>
+
+            <h2 id="penyimpanan">9. Penyimpanan dan Lokasi Data</h2>
+            <p>Data Anda disimpan pada server milik penyedia layanan cloud yang Kami gunakan. Apabila data disimpan atau ditransfer ke luar wilayah Indonesia, Kami memastikan transfer tersebut dilakukan sesuai ketentuan Pasal 56 UU PDP, termasuk memastikan negara atau penerima data memiliki tingkat pelindungan data yang setara atau lebih tinggi, atau terdapat pelindungan data yang memadai dan mengikat.</p>
+            <p>Sebagian data juga tersimpan secara lokal di perangkat Anda agar Aplikasi tetap dapat digunakan saat offline. Data tersebut akan disinkronkan ketika perangkat kembali terhubung ke internet.</p>
+
+            <h2 id="keamanan">10. Keamanan Data</h2>
+            <p>Kami menerapkan langkah-langkah teknis dan organisasi yang wajar untuk melindungi data Anda, antara lain:</p>
+            <ul>
+                <li>Enkripsi data saat dikirim (<em>in transit</em>) menggunakan protokol HTTPS/TLS;</li>
+                <li>Penyimpanan kata sandi dalam bentuk hash, bukan teks biasa;</li>
+                <li>Kunci layar dengan PIN pada perangkat kasir;</li>
+                <li>Pembatasan akses data hanya kepada personel yang berwenang dan memerlukannya;</li>
+                <li>Pengaturan hak akses berbasis peran (<em>role-based access</em>) di dalam Aplikasi;</li>
+                <li>Pemantauan sistem dan pencadangan data secara berkala.</li>
+            </ul>
+            <p>Meskipun kami berupaya menjaga keamanan data dengan sungguh-sungguh, tidak ada metode transmisi atau penyimpanan elektronik yang sepenuhnya bebas risiko. Anda juga berperan menjaga keamanan akun, antara lain dengan merahasiakan kata sandi/PIN dan segera memberi tahu kami bila mencurigai adanya akses tidak sah.</p>
+
+            <h3>Pemberitahuan Kegagalan Pelindungan Data</h3>
+            <p>Apabila terjadi kegagalan pelindungan data pribadi, kami akan menyampaikan pemberitahuan tertulis kepada Anda dan lembaga yang berwenang paling lambat <strong>3 x 24 jam</strong> sejak diketahui, sesuai Pasal 46 UU PDP, yang memuat data yang terdampak, waktu dan cara kejadian, serta upaya penanganan dan pemulihan.</p>
+
+            <h2 id="retensi">11. Masa Retensi Data</h2>
+            <p>Kami menyimpan data pribadi selama akun Anda aktif atau selama diperlukan untuk tujuan sebagaimana dijelaskan dalam Kebijakan ini.</p>
+            <ul>
+                <li>Setelah akun dihapus, data pribadi akan dihapus atau dianonimkan dalam waktu <strong>30 hari</strong>, kecuali kami wajib menyimpannya lebih lama berdasarkan ketentuan hukum (misalnya kewajiban pencatatan transaksi/perpajakan yang dapat mencapai <strong>10 tahun</strong>).</li>
+                <li>Log server disimpan paling lama <strong>90 hari</strong>.</li>
+                <li>Cadangan (<em>backup</em>) sistem akan terhapus secara otomatis sesuai siklus pencadangan, paling lama <strong>30 hari</strong>.</li>
+            </ul>
+
+            <h2 id="hak-anda">12. Hak-Hak Anda</h2>
+            <p>Sesuai UU PDP, Anda memiliki hak untuk:</p>
+            <ol>
+                <li><strong>Mendapatkan informasi</strong> tentang identitas kami, tujuan, dan dasar pemrosesan data Anda;</li>
+                <li><strong>Mengakses</strong> dan memperoleh salinan data pribadi Anda;</li>
+                <li><strong>Memperbaiki atau memperbarui</strong> data yang tidak akurat atau tidak lengkap;</li>
+                <li><strong>Menghapus</strong> data pribadi Anda;</li>
+                <li><strong>Menarik kembali persetujuan</strong> yang telah diberikan;</li>
+                <li><strong>Menunda atau membatasi</strong> pemrosesan data;</li>
+                <li><strong>Mengajukan keberatan</strong> atas pengambilan keputusan yang hanya didasarkan pada pemrosesan otomatis;</li>
+                <li><strong>Memperoleh dan/atau menggunakan</strong> data pribadi Anda dalam format yang umum digunakan (portabilitas data);</li>
+                <li><strong>Menggugat dan menerima ganti rugi</strong> atas pelanggaran pemrosesan data sesuai ketentuan peraturan perundang-undangan.</li>
+            </ol>
+            <p>Untuk menggunakan hak-hak tersebut, hubungi kami melalui kontak pada <a href="#hubungi-kami">Bagian 15</a>. Kami dapat meminta verifikasi identitas sebelum memproses permintaan Anda dan akan menanggapinya paling lambat <strong>3 x 24 jam</strong> sejak permintaan diterima, sebagaimana diatur dalam UU PDP.</p>
+            <p>Penarikan persetujuan atau penghapusan data dapat menyebabkan sebagian atau seluruh layanan Aplikasi tidak lagi dapat digunakan.</p>
+
+            <h2 id="hapus-akun">13. Penghapusan Akun dan Data</h2>
+            <p>Anda dapat meminta penghapusan akun beserta data terkait melalui:</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:raka@tikapro.id?subject=Permintaan%20Hapus%20Akun">raka@tikapro.id</a> dengan subjek "Permintaan Hapus Akun"; atau</li>
+                <li><strong>WhatsApp:</strong> <a href="https://wa.me/6281325763731" target="_blank" rel="noopener noreferrer">+62 813-2576-3731</a> dengan menyebutkan alamat email akun Anda.</li>
+            </ul>
+            <p>Kami akan memverifikasi bahwa permintaan berasal dari pemilik akun sebelum memprosesnya. Sebelum menghapus akun, Merchant disarankan mengekspor laporan penjualan yang diperlukan, karena data yang telah dihapus tidak dapat dipulihkan. Data tertentu dapat tetap disimpan sebagaimana dijelaskan pada <a href="#retensi">Bagian 11</a> apabila diwajibkan oleh hukum.</p>
+
+            <h2 id="di-bawah-umur">14. Pengguna di Bawah Umur</h2>
+            <p>Aplikasi ditujukan untuk keperluan usaha dan <strong>tidak ditujukan bagi anak-anak</strong>. Pengguna yang mendaftarkan akun Merchant harus berusia minimal <strong>18 tahun</strong> atau telah cakap hukum. Kami tidak dengan sengaja mengumpulkan data pribadi anak. Apabila kami mengetahui adanya data anak yang terkumpul tanpa persetujuan orang tua/wali, kami akan segera menghapusnya.</p>
+
+            <h2 id="hubungi-kami">15. Hubungi Kami</h2>
+            <p>Jika Anda memiliki pertanyaan, permintaan, atau keluhan terkait Kebijakan Privasi ini atau pemrosesan data pribadi Anda, silakan hubungi:</p>
+            <div class="contact-card">
+                <p><strong>Made Raka</strong></p>
+                <p>Email: <a href="mailto:raka@tikapro.id">raka@tikapro.id</a></p>
+                <p>Telepon/WhatsApp: <a href="https://wa.me/6281325763731" target="_blank" rel="noopener noreferrer">+62 813-2576-3731</a></p>
+                <p>Alamat: Bali, Indonesia</p>
+            </div>
+
+            <h2 id="perubahan">16. Perubahan Kebijakan Privasi</h2>
+            <p>Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu untuk menyesuaikan dengan perubahan layanan atau peraturan yang berlaku. Perubahan material akan kami beritahukan melalui Aplikasi, email, atau notifikasi sebelum berlaku. Tanggal "Terakhir Diperbarui" di bagian atas menunjukkan versi terbaru. Penggunaan Aplikasi secara berkelanjutan setelah perubahan berlaku berarti Anda telah mengetahui perubahan tersebut.</p>
+
+            <h2 id="bahasa-hukum">17. Bahasa dan Hukum yang Berlaku</h2>
+            <p>Kebijakan Privasi ini disusun dalam Bahasa Indonesia. Apabila di kemudian hari tersedia terjemahan dalam bahasa lain dan terdapat perbedaan penafsiran, <strong>versi Bahasa Indonesia yang berlaku</strong>. Kebijakan ini tunduk pada dan ditafsirkan berdasarkan hukum Negara Republik Indonesia.</p>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Made Raka. Seluruh hak dilindungi.</p>
+            <p><a href="/">Beranda</a> &middot; <a href="/#kontak">Kontak</a> &middot; <a href="privacy.html" aria-current="page">Kebijakan Privasi</a></p>
+        </div>
+    </footer>
+</body>
+</html>
